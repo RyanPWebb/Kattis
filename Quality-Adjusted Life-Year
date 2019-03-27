@@ -1,0 +1,13 @@
+setNum = int(input())
+setResults = []
+
+for i in range(setNum):
+  setData = input()
+  splitData = setData.split()
+
+  setResults.insert(i, float(splitData[0]) * float(splitData[1]))
+totalResults = 0
+for x in range(len(setResults)):
+  totalResults = totalResults + setResults[x]
+
+print(totalResults)
