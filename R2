@@ -1,0 +1,12 @@
+nums = input()
+## nums.split("  ")
+ints = nums.split()
+
+r1 = int(ints[0])
+S = int(ints[1])
+#print(r1)
+#print(S)
+
+r2 = (2 * S) - r1
+
+print(r2)
